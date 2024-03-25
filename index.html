@@ -10,7 +10,11 @@
 <body>
     <header>        
         <img src="spartan-590x180px.png" alt="Spartan Logo">
-        <form action="#" method="get">Encontre o suplemento ideal para você</form>     
+        <form action="/search" method="get">
+            <label for="search"></label>
+            <input type="text" id="search" name="search" placeholder="Encontre o suplemento ideal para você" required>
+            <button type="submit">Buscar</button>
+        </form>      
     </header>
     <nav>
         <a href="#">Whey</a>
