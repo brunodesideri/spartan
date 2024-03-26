@@ -7,6 +7,7 @@
     --cor2:#F8F4F9;
     --cor3:#000000;
     --cor4:#B42117;
+    --cor6:#909090;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;  
@@ -24,15 +25,17 @@ body {
 }
 
 header {
+    height: 75px;
     background-color: var(--cor4);
-    display: flex;
-    align-items: center;
+    display: flex;    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
     
 }
 header > img {
-    padding: 20px 0px 30px 30px;
-    width: 300px;
+    padding: 0px 0px 0px 30px;
+    width: 200px;
     height: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
 }
 
 form {
@@ -41,47 +44,44 @@ form {
   
 label {    
     display: block;
-    margin-bottom: 10px;
-    width: 800px;
+    margin-bottom: 10px;    
 }
+
 input[type="text"] {
-    width: 100%;
+    width: 620px;  
+    height: 55px;
     padding: 10px;
     margin-bottom: 15px;
-    border: 3px solid #ccc; /* Ajuste o tamanho da borda aqui */
-    border-radius: 3px;
+    margin-left: -60px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
     box-sizing: border-box;
+    font-size: 12pt;
 }
 
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
   }
 
-  button:hover {
-    background-color: #45a049;
-  }
-
-nav {
-    color: #000000;
-    background-color: #FFFFFF;
-    font-family: var(--fonte-destaque);       
-    padding: 30px 0px 30px 30px;    
+nav {    
+    font-family: var(--fonte-destaque);     
+    padding: 8px 0px 8px 8px;
+    
+     
 }
 
-nav > a {
-    color: #000000;
+nav > a {    
+    color: var(--cor6);
     text-decoration: none;
-    font-size: 26pt;
-    margin: 0px 30px 0px 0px;
+    font-size: 16pt;
+    margin: 0px 35px 0px 0px;   
+    padding: 0px 0px 0px 28px; 
 }
 
 nav > a:hover {
-    color: #F8F4F9;
-    background-color: #000000;
-    padding: 30px 30px 30px 30px;
+    color: #000000;    
+    padding: 0px 0px 0px 28px; 
+    text-decoration: underline;
+    transition: 1.6s ease;
 }
