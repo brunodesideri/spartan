@@ -25,7 +25,7 @@ body {
 }
 
 header {    
-    height: 75px;
+    width: 100%;
     background-color: var(--cor4);
     display: flex;    
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
@@ -38,8 +38,14 @@ header > img {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
 }
 
+.icon{
+    height: 80px;
+    padding: 10px 10px 10px 120px;
+    color: white;
+    
+}
 .container-wrapper {       
-    padding: 30px;
+    padding: 30px 30px 30px 120px;
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -48,6 +54,10 @@ header > img {
 .container {
     background-color: #B42117;
     
+}
+
+input {
+    width: 250px;
 }
 
 .input-wrapper {    
@@ -63,6 +73,7 @@ header > img {
 .input-wrapper i {
     color: #8e8e8e;
     cursor: pointer;
+    text-shadow: none;
     
 }
 
@@ -78,6 +89,8 @@ header > img {
     color: #000000;
     
 }
+
+
 
 nav {    
     font-family: var(--fonte-destaque);     
