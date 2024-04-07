@@ -98,7 +98,7 @@ nav {
 }
 
 nav > a {    
-    color: var(--cor6);
+    color: var(--cor5);
     text-decoration: none;
     font-size: 16pt;
     margin: 0px 35px 0px 0px;   
@@ -106,10 +106,15 @@ nav > a {
 }
 
 nav > a:hover {
-    color: #000000;    
+    color: var(--cor4);    
     padding: 0px 0px 0px 28px; 
     text-decoration: none;
     transition: 1.6s ease;
+}
+
+.banner {
+    width: 100vw;
+    
 }
 
 footer {
