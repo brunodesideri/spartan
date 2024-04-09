@@ -24,8 +24,8 @@ body {
     background-color: #F8F4F9;
 }
 
-header {    
-    width: 100%;
+header {
+    width: 100%;     
     background-color: var(--cor4);
     display: flex;    
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
@@ -33,7 +33,7 @@ header {
 }
 header > img {
     padding: 0px 0px 0px 30px;
-    width: 200px;
+    width: 20%;
     height: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
 }
