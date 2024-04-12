@@ -62,7 +62,7 @@ header > img {
 }
 
 .container {
-    background-color: #B42117;
+    background-color: #b42117;
     
 }
 
@@ -100,9 +100,7 @@ input {
     
 }
 
-
-
-nav {    
+nav {
     font-family: var(--fonte-destaque);     
     padding: 8px 0px 8px 8px;    
 }
