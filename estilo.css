@@ -44,6 +44,11 @@ header {
     justify-content: space-between;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
     
+    
+}
+
+header > div {
+    position: relative;
 }
 header > img {    
     padding: 0px 0px 0px 30px;
