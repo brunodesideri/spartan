@@ -56,6 +56,7 @@ header > img {
     height: 70px;    
     color: white;
     padding: 20px;
+    padding-right: 30px;
     
 }
 
@@ -132,6 +133,40 @@ nav > a:hover {
 
 .banner {
     width: 100%;
+    
+}
+
+article {
+    display: inline-block;
+    padding: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 0.5em;
+    text-align: center;
+    justify-content: space-between;
+    
+    
+}
+
+article > img {
+    padding: 0px 17px 0px 17px;
+    width: 250px;
+    margin: 0px 30px 0px 30px;
+    
+}
+
+.whey {
+    width: 200px;
+}
+
+article > div{
+    font-family: var(--fonte-padrao);
+    background-color:#01B801;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 0.8px 1px x 0px rgba(0, 0, 0, 0.466);
     
 }
 
